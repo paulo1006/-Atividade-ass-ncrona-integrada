@@ -7,7 +7,6 @@ app.get('/', function(req, res) {
 
 var port = 3001;
 
-// Iniciando o servidor
 app.listen(port, function() {
   console.log(`App de Exemplo escutando na porta http://localhost:${port}/`);
 });
